@@ -17,7 +17,7 @@
 </head>
 <body>
     <section id="header">
-        <a href="#"><img src="logo.png" class="logo" alt=""></a>
+        <a href="#"><img src="images/logo.png" class="logo" alt=""></a>
         <div>
             <ul id="navbar">
                 <li><a href="index.html">Home</a></li>
@@ -36,19 +36,13 @@
 
             <div class="small-img-group">
                 <div class="small-img-col">
-                    <img src="https://th.bing.com/th/id/OIP.GEebChQkP-Vo3jNeqyK-XgHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.5&pid=1.7" width="100%" class="small-img" alt="">
+                    <img src="https://th.bing.com/th/id/OIP.McvGJyYpDLm-vgF7dBWBpAHaJW?w=202&h=255&c=7&r=0&o=5&dpr=1.5&pid=1.7" width="100%" class="small-img" alt="">
                 </div>
             <div class="small-img-col">
-                    <img src="https://th.bing.com/th/id/OIP.GEebChQkP-Vo3jNeqyK-XgHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.5&pid=1.7" width="100%" class="small-img" alt="">
+                    <img src="https://th.bing.com/th/id/OIP.sfUddgcvUB1ssZ4dMr6DIgHaKN?w=202&h=279&c=7&r=0&o=5&dpr=1.5&pid=1.7" width="100%" class="small-img" alt="">
             </div>
             <div class="small-img-col">
-                <img src="https://th.bing.com/th/id/OIP.GEebChQkP-Vo3jNeqyK-XgHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.5&pid=1.7" width="100%" class="small-img" alt="">
-            </div>
-            <div class="small-img-col">
-                <img src="https://th.bing.com/th/id/OIP.GEebChQkP-Vo3jNeqyK-XgHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.5&pid=1.7" width="100%" class="small-img" alt="">
-            </div>
-            <div class="small-img-col">
-                <img src="https://th.bing.com/th/id/OIP.GEebChQkP-Vo3jNeqyK-XgHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.5&pid=1.7" width="100%" class="small-img" alt="">
+                <img src="https://th.bing.com/th/id/OIP.ZbXDIY7MspNl38tVbBOF7gHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.5&pid=1.7" width="100%" class="small-img" alt="">
             </div>
         </div>
         </div>
@@ -154,7 +148,7 @@
 
     <footer class="section-p1">
         <div class="col">
-            <img class="logo" src="logo.png">
+            <img class="logo" src="images/logo.png">
             <h4>Contact</h4>
             <p><strong>Address:</strong> 9, Kolar Road, Bhopal</p>
             <p><strong>Phone:</strong> +91 88396XXXXX</p>
@@ -190,8 +184,8 @@
             <h4>Install App</h4>
             <p>From App Store or Google Play</p>
             <div class="row">
-                <img src="app.jpg">
-                <img src="play.jpg">
+                <img src="images/app.jpg">
+                <img src="images/play.jpg">
             </div>
         </div>
     </footer>
@@ -199,11 +193,23 @@
         <p>© 2024 by Samriddh Saxena</p>
     </div>
 
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallImg = document.getElementsByClassName("small-img"); 
 
-
-
-
-    <script src="script.js"></script>
+        smallImg[0].onclick = function(){
+            MainImg.src = smallImg[0].src;
+            smallImg[0].src = MainImg.src;
+        }
+        smallImg[1].onclick = function(){
+            MainImg.src = smallImg[1].src;
+            smallImg[1].src = MainImg.src;
+        }
+        smallImg[2].onclick = function(){
+            MainImg.src = smallImg[2].src;
+            smallImg[2].src = MainImg.src;
+        }
+    </script>
 </body>
 </html>
 </body>

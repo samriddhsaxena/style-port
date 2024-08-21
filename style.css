@@ -82,7 +82,7 @@ body{
     left: 20px;
 }
 #hero{
-    background-image: url("OIP.jpeg");
+    background-image: url("images/OIP.jpeg");
     height: 85vh;
     background-repeat: no-repeat;
     width: 100%;
@@ -220,7 +220,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("b2.jpg");
+    background-image: url("images/b2.jpg");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -263,7 +263,7 @@ button.normal{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("b17.jpg");
+    background-image: url("images/b17.jpg");
     min-width: 580px;
     height: 50vh;
     background-size: cover;
@@ -271,7 +271,7 @@ button.normal{
     padding: 30px;
 }
 #sm-banner .banner-box2{
-    background-image: url("b10.jpg");
+    background-image: url("images/b10.jpg");
 }
 #sm-banner h4{
     color: #fff;
@@ -405,7 +405,7 @@ footer .follow i:hover, footer a:hover{
     width: 100%;
 }
 #page-header{
-    background-image: url("b1.jpg");
+    background-image: url("images/b1.jpg");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -480,4 +480,15 @@ footer .follow i:hover, footer a:hover{
 }
 #prodetails .single-pro-details span{
     line-height: 25px;
+}
+#page-header .blog-header{
+    background-image: url("images/b19.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
 }
